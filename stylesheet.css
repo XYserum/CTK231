@@ -1,0 +1,33 @@
+.pagecolor{
+    background-color: rgb(189, 175, 175);
+}
+
+#headercolor{
+    color: white;
+    background-color: black ;
+}
+
+.headingcolor{
+    color: red;
+    background-color: black;
+}
+
+.textcolor{
+    color:white;
+}
+
+.textcolor2{
+    color: red;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;   
+}
+
+a:hover {
+  color: yellow;
+}        
