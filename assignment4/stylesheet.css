@@ -1,0 +1,89 @@
+.pagecolor{
+    background-color: rgb(189, 175, 175);
+}
+
+#headercolor{
+    color: white;
+    background-color: black ;
+}
+
+.headingcolor{
+    background-color: black;
+}
+
+h1{
+
+    color: orange;
+    font-style:italic;
+    font-weight:normal;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;   
+}
+
+a:hover {
+  color: yellow;
+}     
+
+.logo{
+    background-image: url(isulogo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.imagebg {
+    border: 50px solid #000000;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+}
+
+h2{
+
+    color: orange;
+    font-style:italic;
+    font-weight:normal;
+}
+
+h3{
+
+    color: orange;
+    font-style:italic;
+    font-weight:normal;
+}
+
+h4{
+
+    color: orange;
+    font-style:italic;
+    font-weight:normal;
+}
+
+.textcolor{
+    color:white;
+}
+
+.pagetext{
+    font-family: Arial, Helvetica sans-serif;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.textjustify{
+
+    text-align: justify;
+}
+
+.textcolor2{
+    color: red;
+}
+
