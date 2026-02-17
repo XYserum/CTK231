@@ -1,0 +1,41 @@
+nav ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-evenly;
+    justify-content:space-between;
+}
+
+/* The nav here is targeting the nav tag and then we put the ul after it to say within the nav we want the ul to be selected*/
+
+nav li{
+    /*display: inline-block;*/
+    display: block;
+    border: 1px solid black;
+    background-color: red;
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+    margin-right: 20px;
+}
+
+/* The most impact with the least amount of work, list items are within unordered lists and both are inside nav, both nav ul and nav il can work becuase they are both within nav*/
+/* border is a compund property, with just the border how it is it goes around the box level element of the content on the page. they stretch and they are one line. the border will will the parent container that it is in but we can change the width in here*/
+/* inline elements you can't put a width onto it. width can't be put onto a linline elenet because it is a block style element. need to make sure that the elements that I have are supported by certian elenents */
+
+nav li a{
+    display:block;
+    color: white;
+    text-decoration:none; 
+    padding: 20px;
+}
+
+/* We can change the display of the link from a text to blosk level element, padding is perventing the link from chaning the entire block from becoming the color and being a */
+
+nav li a:hover{
+    background-color: maroon;
+
+}
+
