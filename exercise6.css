@@ -1,0 +1,77 @@
+#wrapper{
+margin: 1em auto;
+  padding: 0;
+  width: 1200px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: /*1fr*/ repeat(12, 1fr);
+  
+}
+
+body{
+  background-color:gray;
+}
+
+header {
+  grid-column:span 12;
+  background-color:#ff0000;
+}
+
+nav {
+  grid-column: span 3;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 200px;
+}
+
+nav li a {
+  display: block;
+  background-color: red;
+  border: 1px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  grid-column: span 6
+}
+
+.mainimg{
+  float: left;
+}
+
+/* the float for the image wraps the text up to the side of the image*/
+
+aside {
+  grid-column: span 3; 
+  background-color:blue;
+}
+
+footer {
+  background-color: aqua;
+  grid-column: span 12;
+  /* if the span wasn't within this footer part here then it wouldn't go all the way across the page*/
+}
+
+/*put grids in the parent element that you want to put things inside
+defulat of a grid is one collum and every element goes into a new row, each block that we have within the grid is seperated, 
+more complex grid use grid template columns. we want a 12 collum grid so that it is a standard design convection that has been used for a long time. 12 collums is a magic number that can be dividied into halfs, fourths, eights so on ect. with the grid-template-columns are put in the content looks really bad but we can make the size of the collum widths different. image widths. 
+
+We want the header go across the 12 entire collums so we labe it as  grid-column:span 12;, this means that the collum in the headerr will go across all 12 coloumns and then the rest of them will apear under it
+
+semantic elements help with grids to target specific parts of the web page that we make 
+
+think in terms of boxes/containers in what we need to make and then make them put the grid around that. Like make the foundation by making all the elements and then put them into the grid*/ 
+
+
+
+
