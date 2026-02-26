@@ -1,0 +1,94 @@
+.p{
+   background-image: url(a5bg.png);
+    background-repeat: repeat;
+   
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 40px
+}
+
+nav ul {
+  list-style:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    display: block;
+    border: 1px solid navy;
+    background-color: navy;
+    width: 250px;
+    font-size: 18px;
+    margin-right: 20px;
+  
+}
+
+nav li a{
+    display:block;
+    color: white;
+    text-decoration:none; 
+    padding: 20px;
+}
+
+nav a:hover{
+    background-color: blue;
+
+}
+
+main{
+    background-color:white;
+}
+
+main h2{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    border-bottom: 5px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+main p{
+    justify-content:space-evenly;
+    justify-content:space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+}
+
+main a{
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+    
+}
+
+main a:hover{
+    color:red;
+    text-decoration: underline ;
+}
+
+footer{
+    background-color: navy;
+    border: 5px solid white ;
+    padding:30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    
+    
+}
