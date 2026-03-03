@@ -1,0 +1,95 @@
+#wrapper{
+margin: 1em auto;
+  padding: 0;
+  width: 1200px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: /*1fr*/ repeat(12, 1fr);
+ border: black solid 3px;
+  
+}
+
+body{
+  background-color:gray;
+  
+}
+
+#bgimg{
+    background-image: url("Eroded-Point-Scoring-Card-Back.png");
+    background-repeat: repeat;
+}
+
+header {
+  grid-column:span 12;
+  background-color:#ff0000;
+  font-weight: normal;
+ 
+}
+
+nav {
+  grid-column: span 12;
+  text-align: center;
+}
+
+nav ul {
+  list-style:none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+}
+
+nav li {
+    display: block;
+    border: 3px solid black;
+    background-color: green;
+    width: 250px;
+    font-size: 18px;
+    margin-right: 20px;
+  
+}
+
+nav li a{
+    display:block;
+    color: white;
+    text-decoration:none; 
+    padding: 20px;
+}
+
+main {
+  grid-column: span 8;
+  padding: 1em;
+}
+
+.fh2{
+    border-bottom: 3px black solid;
+}
+
+#float{
+float:right;
+
+}
+
+.link{
+    color: green;
+    text-decoration: none;
+
+}
+
+
+aside {
+  grid-column: span 4; 
+  background-color:rgb(75, 156, 202);
+    padding: 1em;
+    margin: 20px;
+
+}
+aside h2 { border-bottom: 3px solid black;}
+
+aside p{
+    font-style:italic;
+}
+
+footer {
+  background-color: aqua;
+  grid-column: span 12;
+}
