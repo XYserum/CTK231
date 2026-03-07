@@ -1,0 +1,142 @@
+#wrapper {
+    margin: 1em auto;
+    padding: 0px;
+    width: 1200px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repaet(12, 1fr);
+    border: rgb(38, 38, 201) solid 5px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    color: lightblue;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    padding: 30px;
+    margin-top: 0px;
+    grid-column: span 12;
+    text-decoration: none;
+}
+
+header a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: white;
+}
+
+nav {
+    grid-column: span 12;
+    background-color: #1335ae;
+    padding-bottom: 0px;
+    border-bottom: rgb(38, 38, 201) solid 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+
+}
+
+nav li a {
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    color: lightblue;
+    text-decoration: none;
+    padding-right: 100px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#Wpl {
+    padding-right: 110px;
+    color: white;
+}
+
+#Asl {
+    padding-right: 105px;
+}
+
+#Gl {
+    padding-right: 183px;
+}
+
+#Bl {
+    Padding-right: 260px;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+aside {
+    background-color: lightblue;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+    grid-column: span 6;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+aside h2 {
+    border-bottom: solid rgb(38, 38, 201) 3px;
+    color: rgb(38, 38, 201);
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+#float {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: solid rgb(38, 38, 201);
+    width: 500px;
+}
+
+main {
+    grid-column: span 6;
+    padding: 20px;
+    padding-top: 5px;
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+main h2 {
+    border-bottom: solid rgb(38, 38, 201) 3px;
+    color: rgb(38, 38, 201);
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+
+main a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: red;
+    border-top: solid 5px rgb(38, 38, 201);
+    grid-column: span 12;
+    padding: 10px;
+}
