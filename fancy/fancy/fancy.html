@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fancy Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.umd.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.umd.js"></script>
+
+
+  <link rel="stylesheet" href="fancy.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>Fancy Example</h1>
+
+    <a href="icecream.jpg" data-fancybox="gallery" data-caption="Ice cream">
+      <img src="icecream_thumb.jpg" alt="Ice cream" />
+    </a>
+
+    <a href="patch.jpg" data-fancybox="gallery" data-caption="patch">
+      <img src="patch_thumb.jpg" alt="patch" />
+    </a>
+
+    <a href="water.jpg" data-fancybox="gallery" data-caption="water">
+      <img src="water_thumb.jpg" alt="water" />
+    </a>
+
+    <div class="f-carousel" id="myCarousel">
+      <div class="f-carousel__slide"><img src="icecream.jpg" alt="Ice Cream"></div>
+      <div class="f-carousel__slide"><img src="patch.jpg" alt="patch"></div>
+      <div class="f-carousel__slide"><img src="water.jpg" alt="water"> </div>
+    </div>
+  </div>
+
+  <script>
+    Fancybox.bind("[data-fancybox]", {
+      // Your custom options
+    });
+
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: false };
+
+    Carousel(container, options, {Arrows}).init();
+
+
+  </script>
+
+
+</body>
+
+</html>
+
+<!-- Java script which I have learned in my other class can be put into the website that I am making. I can use p5js and put the programs that I make into the sites to make carosells. If there is a feature that I want to put into the website I should search up what I want and find a totorial so I can get it in there.
+ 
+I need to instal fancy box to use it, most of these ussally have a content delivery network (Lines of code that help link the service to the page, just like webfonts, videos and other stuff I want to link) The link is found on fancy box's website for instalation. I need to out the fancy box links above my own css so that I can have my styling trump over theres.
+
+There is a slash at the end of the link in for the fancy box to represent that it is an opening tag and a closing tag. If I were to put this through the html validator it would probally say that I don't need it. I should and will get rid of it. 
+
+I need to include the script anywhere before the end body tag. I would need to add in the java script and the css that goes along with it. -->
+
+<!--Base java script has to be put into the page in order to use it, now I have to write in the java script so I can build what I want to put into the page. I can put in declarative or programatic to put in the things that I want to, we will be using the declartative 
+
+https://fancyapps.com/fancybox/get-started/usage/
+
+I will copy the example work first and  learn from what it does
+
+Data.atribute is a short hand way to connect variable to someone's custom java script. data- is astandard attibute and anything after it. Data-fancy box works when I have the links at the top of the page. The gallery variable is an atribute, I can call it fred but all the images with this attribute will be linked to the same location where all the images can be seen from I think.
+
+ <a href="image-b.jpeg" data-fancybox="gallery" data-caption="Caption #2">
+      <img src="thumbnail-b.jpeg" alt="Gallery image 2" />
+
+These images will apear on the screen and they are linked images that open up a larger picture of that image. 
+
+Third step is I need to conect the java script to the HTML that I have. I need to build the java script and conect it to the HTML
+
+Back in Fancy Box I can take some code from fancy box, I can add some script into my page. I turns out gray, and it doesn't work. I would need to put it into a script tag so it can run. <script> Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+</script>
+
+Order matters in this situaltion. I need to make sure that the borwser loads the page and then it runs the script so that it has something to pull from. The little bit of java script that is there. data fancy-box says to attach any fancy box mentions to it.
+
+Multiple javascripts can be put into a website, but if I do put in one at a time becuase it is a nightmare to put in lots of things at once. Don't debgug lots of lines of java script. 
+      
+
+the getelementbyID when it finds it it loads it. if there are multiple of the javascript in the same page it probally won't work but also there are other elements that search for all instances of that element
+
+people 
+
+The JSBin examples show how the code works, to do research on how to add these things in I can put these things into my pages. 
+
+Because the carrosel is built with html and CSS I can moddify what I 
+
+The -- in the CSS 
+
+-->
