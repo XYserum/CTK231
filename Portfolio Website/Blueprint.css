@@ -4,10 +4,11 @@
     margin: 1em auto;
     padding: 0px;
     background-image: url(Tile5.png);
-      background-repeat: repeat;
-      background-size: 480px;
+    background-repeat: repeat;
+    background-size: 480px;
     grid-template-columns: (12, 1fr);
     border: #1c0f8d solid 5px;
+
 }
 
 header {
@@ -18,6 +19,7 @@ header {
 }
 
 header h1 {
+    background-color: transparent;
     font-family: "Bitcount Grid Double", system-ui;
     font-optical-sizing: auto;
     font-weight: normal;
@@ -30,13 +32,22 @@ header h1 {
 
     text-align: center;
     font-size: 55px;
+    
 }
 
 header a {
     text-decoration: none;
     color: rgb(52, 146, 115);
-
+    text-shadow: 4px 4px 1px #000;
+     transition:text-shadow 0.75s, background-color 0.75s, radius 2.0s, color 0.75s;
+    
 }
+
+header h1 a:hover{
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
 
 nav {
     grid-column: span 12;
@@ -47,19 +58,13 @@ nav {
     padding-bottom: 5px;
 }
 
-#navp{
-    color: white;
-        padding-left: 80px;
-    padding-right: 80px;
-}
-
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: inline-block;
-    margin-left: 13px;
-    margin-right: 15px;
+    margin-left: 15px;
+    margin-right: 0px;
 }
 
 nav li {
@@ -68,6 +73,7 @@ nav li {
     width: 290px;
     height: 50px;
     font-size: 25px;
+
 }
 
 nav li a {
@@ -75,10 +81,13 @@ nav li a {
     color: rgb(52, 146, 115);
     text-decoration: none;
     border: solid white 1px;
+    text-shadow: 2px 2px 1px #000;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 0px;
     text-align: center;
+    transition: box-shadow 0.75s, text-shadow 0.75s, background-color 0.75s, radius 2.0s, color 2s;
+    border-radius: 100px;
 
     font-family: "Bitcount Grid Double", system-ui;
     font-optical-sizing: auto;
@@ -91,25 +100,114 @@ nav li a {
         "ELXP" 0;
 }
 
+/* CSS for project page link */
+
 #Projectpage {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
 }
+
+#Projectpage:hover {
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+#navpr {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 5px rgb(52, 146, 115);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#navpr:hover {
+    color: rgb(52, 146, 115);
+    background-color: #2729c4;
+    text-shadow: 2px 2px 1px #000;
+}
+
+/* CSS for People Page link */
 
 #Peoplepage {
-    padding-left: 95px;
-    padding-right: 95px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
+
+#Peoplepage:hover {
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+}
+
+#navp {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 5px rgb(52, 146, 115);
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#navp:hover {
+    color: rgb(52, 146, 115);
+    background-color: #2729c4;
+    text-shadow: 2px 2px 1px #000;
+}
+
+/* CSS for Gallery Page link */
 
 #Gallerypage {
-    padding-left: 87px;
-    padding-right: 88px;
+    padding-left: 67px;
+    padding-right: 67px;
 }
 
-#Shoppage {
-    padding-left: 115px;
-    padding-right: 115px;
+#Gallerypage:hover {
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+
 }
+
+#navg {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 5px rgb(52, 146, 115);
+    padding-left: 67px;
+    padding-right: 67px;
+}
+
+#navg:hover {
+    color: rgb(52, 146, 115);
+    background-color: #2729c4;
+    text-shadow: 2px 2px 1px #000;
+}
+
+/* CSS for Shop Page*/
+
+#Contactpage {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#Contactpage:hover {
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+}
+
+#navc {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 5px rgb(52, 146, 115);
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#navc:hover {
+    color: rgb(52, 146, 115);
+    background-color: #2729c4;
+    text-shadow: 2px 2px 1px #000;
+}
+
 
 #pic1 {
     height: 100px;
@@ -121,17 +219,17 @@ main {
     padding-left: 15px;
     padding-right: 15px;
     width: 1170px;
-    height:400px;
+    height: 400px;
     background-color: rgb(15, 15, 15);
 }
 
 main h2 {
-    
+
     border-bottom: rgb(52, 146, 115) solid 3px;
     text-align: center;
     color: rgb(52, 146, 115);
 
-    
+
 
     font-family: "Bitcount Grid Double", system-ui;
     font-optical-sizing: auto;
@@ -150,7 +248,7 @@ main p {
     font-size: 20px;
     padding: 10px;
     border: solid white 1px;
-    background-color:#1c0f8d;
+    background-color: #1c0f8d;
 
     font-family: "Bitcount Grid Double", system-ui;
     font-optical-sizing: auto;
@@ -163,20 +261,20 @@ main p {
         "ELXP" 0;
 }
 
-.mainp{
+.mainp {
     text-align: justify;
 }
 
-.projectp{
+.projectp {
     border: solid white 1px;
-    margin:10px;
+    margin: 10px;
     padding-left: 5px;
     padding-right: 5px;
     display: flex;
 
 }
 
-#i1{
+#i1 {
     float: left;
     width: 575px;
     border: solid white 1px;
@@ -197,16 +295,16 @@ aside {
     background-color: rgb(15, 15, 15);
 }
 
-.asidem{
-border-bottom:#1c0f8d solid 5px;
+.asidem {
+    border-bottom: #1c0f8d solid 5px;
 
 }
 
-section{
-grid-column: span 6;
+section {
+    grid-column: span 6;
 }
 
-section h3{
+section h3 {
     font-size: lighter;
     color: rgb(52, 146, 115);
     background-color: rgb(15, 15, 15);
