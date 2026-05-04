@@ -1,0 +1,358 @@
+#background {
+    background-image: url(../Portfolio-Website-Image-Folder/Background-Tile.png);
+    background-repeat: repeat;
+    background-size: 478px;
+}
+
+#topwrapper {
+    width: 1200px;
+    display: grid;
+    margin: 1em auto;
+    padding: 0px;
+    grid-template-columns: (12, 1fr);
+    border: rgb(255, 255, 255) solid 3px;
+}
+
+#Mainpg {
+    grid-column: span 12;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0px;
+    height: 56px;
+    width: 1200px;
+    background-image: linear-gradient(to bottom, black, #2729c4);
+    border-bottom: rgb(255, 255, 255) double 10px;
+
+}
+
+#navm {
+    transition: box-shadow 0.75s, text-shadow 0.75s, background-color 0.75s, radius 2.0s, color 2s;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+
+    text-align: center;
+    font-size: 55px;
+
+    text-decoration: none;
+    color: rgb(52, 146, 115);
+    background: transparent;
+    border: solid white 1px;
+    border-radius: 100px;
+    text-shadow: 4px 4px 1px #000;
+    margin-left: 215px;
+}
+
+#navm:hover {
+    color: white;
+    text-shadow: 7px 7px 1px #911465;
+    background: black;
+}
+
+h1 a {
+    transition: box-shadow 0.75s, text-shadow 0.75s, background-color 0.75s, radius 2.0s, color 2s;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+
+    text-align: center;
+    font-size: 50px;
+
+    text-decoration: none;
+    color: rgb(52, 146, 115);
+    background: #2729c4;
+    border: solid white 1px;
+    border-radius: 100px;
+    text-shadow: 4px 4px 1px #000;
+    margin-left: 210px;
+
+}
+
+h1 a:hover {
+    color: white;
+    text-shadow: 7px 7px 1px #911465;
+    background: black;
+}
+
+nav {
+    grid-column: span 12;
+    background-image: linear-gradient(to top, black, #911465);
+    padding-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px;
+    width: 290px;
+    height: 50px;
+    font-size: 25px;
+
+}
+
+nav li a {
+    background: #2729c4;
+    color: rgb(52, 146, 115);
+    text-decoration: none;
+    border: solid white 1px;
+    text-shadow: 2px 2px 1px #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    text-align: center;
+    transition: box-shadow 0.75s, text-shadow 0.75s, background-color 0.75s, radius 2.0s, color 2s;
+    border-radius: 100px;
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+#Projectpage {
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+#Projectpage:hover {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 1px #911465;
+}
+
+
+/* CSS for People Page link */
+
+#Peoplepage {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#Peoplepage:hover {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 1px #911465;
+
+}
+
+/* CSS for Gallery Page link */
+
+#Gallerypage {
+    padding-left: 67px;
+    padding-right: 67px;
+}
+
+#Gallerypage:hover {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 1px #911465;
+}
+
+/* CSS for Shop Page*/
+
+#Contactpage {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#Contactpage:hover {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 1px #911465;
+
+}
+
+
+#wrapperbody {
+    width: 1200px;
+    display: grid;
+    margin: 1em auto;
+    padding: 0px;
+    grid-template-columns: (12, 1fr);
+    border: #ffffff solid 3px;
+    background-color: rgb(15, 15, 15);
+}
+
+section {
+    grid-column: span 12;
+    background-color: rgb(15, 15, 15);
+    margin: 30px;
+    padding: 20px;
+    padding-bottom: 30px;
+    border: 3px solid white;
+    width: 1095px;
+}
+
+h2 {
+    border-top: rgb(52, 146, 115) solid 3px;
+    border-bottom: rgb(52, 146, 115) solid 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(52, 146, 115);
+    font-size: 40px;
+margin-left: 150px;
+margin-right: 150px;
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+img {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 240px;
+    margin-bottom: 10px;
+    height: 400px;
+    width: 600px;
+    border: white 3px solid;
+    background: black;
+    grid-column: span 7;
+}
+
+aside {
+    grid-column: span 12;
+    background-color: rgb(15, 15, 15);
+    margin: 30px;
+    margin-top: 0px;
+    padding: 20px;
+    border: 3px solid white;
+}
+
+aside p {
+    text-align: justify;
+    color: rgb(52, 146, 115);
+    font-size: 20px;
+    border: solid white 3px;
+    background-color: #1c0f8d;
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+#p1 {
+
+    grid-column: span 3;
+    width:590px;
+    margin-top: 0px;
+    display: inline-block;
+       margin-left: 150px;
+      padding-left: 100px;
+    margin-right: 150px;
+    padding-right:100px;
+}
+
+
+
+.mainp {
+    text-align: justify;
+    grid-column: span 6;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+}
+
+
+p {
+    text-align: center;
+    color: rgb(52, 146, 115);
+    font-size: 20px;
+    padding: 10px;
+    border: solid white 1px;
+    background-color: #1c0f8d;
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+#bottomwrapper {
+    width: 1200px;
+    display: grid;
+    margin: 1em auto;
+    padding: 0px;
+    grid-template-columns: (12, 1fr);
+    border: rgb(255, 255, 255) solid 3px;
+
+}
+
+footer {
+    background-color: rgb(15, 15, 15);
+    color: rgb(52, 146, 115);
+    grid-column: span 12;
+    text-align: center;
+    font-size: 10px;
+margin-left: 30px;
+margin-right:30px;
+
+
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+
+}

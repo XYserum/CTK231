@@ -1,0 +1,502 @@
+#background {
+    background-image: url(../Portfolio-Website-Image-Folder/Background-Tile.png);
+    background-repeat: repeat;
+    background-size: 478px;
+}
+
+#topwrapper {
+    width: 1200px;
+    display: grid;
+    margin: 1em auto;
+    padding: 0px;
+    grid-template-columns: (12, 1fr);
+    border: rgb(255, 255, 255) solid 3px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#Mainpg {
+    grid-column: span 12;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 56px;
+    width: 1200px;
+    background-image: linear-gradient(to bottom, black, #2729c4);
+    border-bottom: rgb(255, 255, 255) double 10px;
+
+}
+
+#navm {
+    transition: box-shadow 0.75s, text-shadow 0.75s, background-color 0.75s, radius 2.0s, color 2s;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+
+    text-align: center;
+    font-size: 55px;
+
+    text-decoration: none;
+    color: rgb(52, 146, 115);
+    background: transparent;
+    border: solid white 1px;
+    border-radius: 100px;
+    text-shadow: 4px 4px 1px #000;
+    margin-left: 210px;
+}
+
+#navm:hover{
+ color: white;
+    text-shadow: 7px 7px 1px #911465;
+    background: black;
+}
+
+h1 a {
+    transition: box-shadow 0.75s, text-shadow 0.75s, background-color 0.75s, radius 2.0s, color 2s;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+
+    text-align: center;
+    font-size: 55px;
+
+    text-decoration: none;
+    color: rgb(52, 146, 115);
+    background: #2729c4;
+    border: solid white 1px;
+    border-radius: 100px;
+    text-shadow: 4px 4px 1px #000;
+    margin-left: 210px;
+
+}
+
+h1 a:hover {
+    color: white;
+    text-shadow: 7px 7px 1px #911465;
+    background: black;
+}
+
+nav {
+    grid-column: span 12;
+    background-image: linear-gradient(to top, black, #911465);
+    padding-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px;
+    width: 290px;
+    height: 50px;
+    font-size: 25px;
+
+}
+
+nav li a {
+    background: #2729c4;
+    color: rgb(52, 146, 115);
+    text-decoration: none;
+    border: solid white 1px;
+    text-shadow: 2px 2px 1px #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    text-align: center;
+    transition: box-shadow 0.75s, text-shadow 0.75s, background-color 0.75s, radius 2.0s, color 2s;
+    border-radius: 100px;
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+/* CSS for project page link */
+
+#Projectpage {
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+#Projectpage:hover {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 1px #911465;
+}
+
+#navpr {
+    color: white;
+    background: transparent;
+    text-shadow: 5px 5px 1px #911465;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#navpr:hover {
+    color: rgb(52, 146, 115);
+    background-color: #2729c4;
+    text-shadow: 2px 2px 1px #000;
+}
+
+/* CSS for People Page link */
+
+#Peoplepage {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#Peoplepage:hover {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 1px #911465;
+
+}
+
+#navp {
+    color: white;
+    background: transparent;
+    text-shadow: 5px 5px 1px #911465;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#navp:hover {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 1px #911465;
+}
+
+/* CSS for Gallery Page link */
+
+#Gallerypage {
+    padding-left: 67px;
+    padding-right: 67px;
+}
+
+#Gallerypage:hover {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 1px #911465;
+}
+
+#navg {
+    color: white;
+    background: transparent;
+    text-shadow: 5px 5px 1px #911465;
+    padding-left: 67px;
+    padding-right: 67px;
+}
+
+#navg:hover {
+    color: rgb(52, 146, 115);
+    background-color: #2729c4;
+    text-shadow: 2px 2px 1px #000;
+}
+
+/* CSS for Shop Page*/
+
+#Contactpage {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#Contactpage:hover {
+    color: white;
+    background: black;
+    text-shadow: 5px 5px 1px #911465;
+
+}
+
+#navc {
+    color: white;
+    background: transparent;
+    text-shadow: 5px 5px 1px #911465;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#navc:hover {
+    color: rgb(52, 146, 115);
+    background-color: #2729c4;
+    text-shadow: 2px 2px 1px #000;
+}
+
+#wrapperbody {
+    width: 1200px;
+    display: grid;
+    margin: 1em auto;
+    padding: 0px;
+    grid-template-columns: (12, 1fr);
+    border: #ffffff solid 3px;
+}
+
+
+#pic1 {
+    height: 100px;
+}
+
+main {
+    text-align: justify;
+    grid-column: span 12;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
+    height: 400px;
+    background-color: rgb(15, 15, 15);
+}
+
+#p1{
+      text-align: justify;
+    grid-column: span 12;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
+    height: 1300px;
+    background-color: rgb(15, 15, 15);
+}
+
+#prm{
+    grid-column: span 6;
+}
+
+
+
+main h2 {
+    border-top: rgb(52, 146, 115) solid 3px;
+    border-bottom: rgb(52, 146, 115) solid 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(52, 146, 115);
+    font-size: 30px;
+
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+#h2a{
+    border-top: rgb(52, 146, 115) solid 3px;
+    border-bottom: rgb(52, 146, 115) solid 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(52, 146, 115);
+    font-size: 30px;
+    
+
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+
+}
+
+main h3{
+     border-top: rgb(52, 146, 115) solid 3px;
+    border-bottom: rgb(52, 146, 115) solid 3px;
+    text-align: center;
+    color: rgb(52, 146, 115);
+    font-size: 30px;
+    grid-column: span 12;
+    display:inline;
+    width:600px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+
+
+main p {
+    text-align: justify;
+    color: rgb(52, 146, 115);
+    font-size: 20px;
+    padding: 10px;
+    border: solid white 1px;
+    background-color: #1c0f8d;
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+
+.mainp {
+    text-align: justify;
+    grid-column: span 6;
+    margin-left:10px;
+    margin-right:10px;
+    padding: 30px;
+}
+
+.projectp {
+    border: solid white 1px;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+
+}
+
+
+
+#i1 {
+    float: left;
+    width: 575px;
+    border: solid white 1px;
+    margin-right: 10px;
+    grid-column: span 12;
+  
+}
+
+#float {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: solid rgb(0, 0, 0);
+    width: 200px;
+}
+
+aside {
+    grid-column: span 12;
+    width: 1200px;
+    background-color: rgb(15, 15, 15);
+}
+
+.asidem {
+    padding-top: 50px;
+    border-top: rgb(52, 146, 115) solid 3px;
+    border-bottom: #1c0f8d solid 5px;
+}
+
+#wrapper3 {
+    width: 1200px;
+    display: grid;
+    margin: 1em auto;
+    padding: 0px;
+    grid-template-columns: (12, 1fr);
+    border: rgb(255, 255, 255) solid 3px;
+
+}
+
+section {
+    grid-column: span 6;
+}
+
+section h3 {
+    font-size: lighter;
+    color: rgb(52, 146, 115);
+    background-color: rgb(15, 15, 15);
+
+    border-bottom: rgb(52, 146, 115) solid 3px;
+    text-align: center;
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+#bottomwrapper{
+ width: 1200px;
+    display: grid;
+    margin: 1em auto;
+    padding: 0px;
+    grid-template-columns: (12, 1fr);
+    border: rgb(255, 255, 255) solid 3px;
+
+}
+
+footer {
+    background-color: rgb(15, 15, 15);
+    color: rgb(52, 146, 115);
+    grid-column: span 12;
+    text-align: center;
+    font-size: 15px;
+    
+
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: lighter;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+
+}
